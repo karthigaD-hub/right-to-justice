@@ -1,0 +1,76 @@
+# Trader Behavior vs Market Sentiment Analysis
+
+## 📌 Objective
+The objective of this project is to analyze how Bitcoin market sentiment (Fear & Greed Index)
+impacts trader behavior and performance using historical trade data from Hyperliquid.
+
+The goal is to uncover patterns that can help design smarter, sentiment-aware trading strategies.
+
+---
+
+## 📂 Datasets Used
+
+### 1. Hyperliquid Historical Trader Data
+Contains detailed trade-level information including:
+- Account
+- Coin
+- Trade direction (Buy/Sell)
+- Execution price
+- Trade size (USD)
+- Closed PnL
+- Timestamp (IST)
+
+### 2. Bitcoin Fear & Greed Index
+Contains daily market sentiment classified as:
+- Extreme Fear
+- Fear
+- Neutral
+- Greed
+- Extreme Greed
+
+---
+
+## 🛠️ Tools & Technologies
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Jupyter Notebook
+- VS Code
+- Git & GitHub
+
+---
+
+## 🔍 Methodology
+1. Cleaned and standardized column names
+2. Converted timestamps and aligned both datasets by date
+3. Merged trader data with market sentiment
+4. Analyzed:
+   - Trade frequency by sentiment
+   - Profitability by sentiment
+   - Buy vs Sell behavior
+   - Risk behavior via trade size
+   - Volatility of returns
+5. Visualized insights using bar charts
+
+---
+
+## 📊 Key Insights
+- Traders earn **higher average profits during Greed phases**
+- **Fear markets show higher volatility**, indicating emotional trading
+- Trade sizes increase during Greed, raising risk exposure
+- Buy and Sell strategies perform differently across sentiment regimes
+- Neutral sentiment provides more stable, risk-adjusted performance
+
+---
+
+## 📈 Potential Extensions
+- Sharpe ratio & drawdown analysis
+- Trader clustering based on behavior
+- Sentiment-based strategy simulation
+- Coin-wise performance analysis
+
+---
+
+## 👤 Author
+**Karthiga**  
+Junior Data Scientist Applicant
